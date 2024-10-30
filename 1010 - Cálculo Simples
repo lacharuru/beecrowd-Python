@@ -1,0 +1,13 @@
+id1, numP1, valP1 = input().split()
+id1 = int(id1)
+numP1 = int(numP1)
+valP1 = float(valP1)
+
+id2, numP2, valP2 = input().split()
+id2 = int(id2)
+numP2 = int(numP2)
+valP2 = float(valP2)
+
+valPagar = (numP1 * valP1) + (numP2 * valP2)
+
+print(f'VALOR A PAGAR: R$ {valPagar:.2f}')
