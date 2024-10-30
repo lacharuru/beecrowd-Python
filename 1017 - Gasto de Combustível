@@ -1,0 +1,6 @@
+t = int(input())
+vm = int(input())
+
+l = (vm / 12) * t
+
+print(f'{l:.3f}')
